@@ -69,7 +69,7 @@
     </ul>
     </div>
   </nav>
-  <div id="row row-cols-1 row-cols-md-3 g-4">
+  <div id="pru" class="pru">
     <!-- <div class="col">
       <h5 class="product-title">PRODUCT</h5>
       <h5 class="price">PRICE</h5>
@@ -78,7 +78,7 @@
     </div> -->
   </div>
   <div>
-    <table>
+    <!-- <table>
       <tr>
         <th>
           <h2> Subtotal</h2>
@@ -107,6 +107,22 @@
         </td>
       </tr>
 
+    </table> -->
+    <table class="table">
+      <thead>
+        <tr>
+          <th scope="col"><h3> Subtotal</h3></th>
+          <th scope="col"><h3>vat </h3></th>
+          <th scope="col"><h3>total Price </h3></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><h4 id="subtotal1"></h4></td>
+          <td><h4 id="vat1"> </h4></td>
+          <td><h4 id="totalPrice1"> </h4></td>
+        </tr>
+      </tbody>
     </table>
     <div class="coponstyle">
       <h2>copon <input id="copon" type="text"> </h2>

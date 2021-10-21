@@ -290,3 +290,17 @@ li a {
     height: 2px;
     width: 2px;
 }
+.card-img{
+    height: 200px;
+    width: 200px;
+}
+.pru{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-content: center;
+    
+
+}

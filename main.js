@@ -59,21 +59,26 @@ function toShow(){
     let y=document.createElement("IMG")
     let a=document.createElement("P")
     let innerDiv =document.createElement("div")
-    let outerDiv =document.getElementById("row row-cols-1 row-cols-md-3 g-4")
+    let outerDiv =document.getElementById("pru")
+    let b=document.createElement("button")
     
     
-
+    
     x.innerText=item.name
     y.src =item.img
     a.innerText =item.price
+    b.innerText="Delet"
+    
     innerDiv.appendChild(x)
-    outerDiv.appendChild(y)
+    innerDiv.appendChild(y)
     innerDiv.appendChild(a)
+    innerDiv.appendChild(b)
     outerDiv.appendChild(innerDiv)
-    y.className="card-img-top"
+    y.className="card-img"
     x.className="card-title"
     a.className="card-text"
-    innerDiv.className="col"
+    innerDiv.className="innerdiv"
+    b.className="btn btn-primary"
 
     
 
