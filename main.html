@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.main.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Shopping Cart</title>
+</head>
+<body>
+  <header>
+    <div class="overlay"></div>
+    <nav>
+        <h2><img src="images/g0.png" alt="" height="100px" width="100px"></h2>
+        <form class="form-inline">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+
+            <ul>
+                <li><a href="index.html"> Home </a></li>
+                <li><a href="page1.html">Contact</a></li>
+                <li class="cart">
+                    <a id="showInCart" href="cart.html" >
+                        <ion-icon name="cart-outline"></ion-icon>Cart<span>0</span>
+                    </a> 
+                    <!-- <i id="ccount"></i> -->
+                </li>
+            </ul>
+            <!-- <button id="showInCart" >showInCart</button> -->
+        </nav>
+        
+        
+    </header>
+    
+
+    <div class="container">
+        <div class="imagegift">
+            <img src="images/gg.jpg" alt="" height="400px" width="500px">
+            <h3>collection of Coffee </h3>
+            <h3>$15.00</h3>
+            <button data-price="15" data-name="collection of Coffee" data-img="images/gg.jpg" class="add-cart cart1" onclick="addToCart"> Add Cart</button>
+            <!-- <a class="add-cart cart1" href="#" onclick="addToCart">Add Cart</a> -->
+           
+        </div>
+        <div class="imagegift">
+            <img src="images/j.png" alt="" height="400px" width="500px">
+            <h3>collection of Stars </h3>
+            <h3>$30.00</h3>
+            <button data-price="30" data-name="collection of Stars" data-img="images/j.png" class="add-cart cart2" onclick="addToCart"> Add Cart</button>
+            <!-- <a class="add-cart cart2" href="#" onclick="addToCart">Add Cart</a> -->
+            
+        </div>
+        <div class="imagegift">
+            <img src="images/w.webp" alt="" height="400px" width="500px">
+            <h3>Gifts for Women </h3>
+            <h3>$20.00</h3>
+            <button data-price="20" data-name="Gifts for Women" data-img="images/w.webp" class="add-cart cart3"> Add Cart</button>
+            <!-- <a class="add-cart cart3" href="#" onclick="addToCart">Add Cart</a> -->
+            
+        </div>
+        <div class="imagegift" >
+            <img src="images/ch.jpg" alt="" height="400px" width="500px">
+            <h3> Gifts for Kids </h3>
+            <h3>$25.00</h3>
+            <!-- <a class="add-cart cart4" href="#" onclick="addToCart">Add Cart</a> -->
+            <button data-price="25" data-name="Gifts for Kids" data-img="images/ch.jpg" class="add-cart cart4"  onclick="addToCart"> Add Cart</button>
+
+        </div>
+
+    </div>
+    <footer>
+        <div class="f">
+          <div class="f1">
+            <h5> Get to Know Us </h5>
+            <a href="">About Us </a>
+          </div>
+        <div class="f2">
+          <h5>
+           Let Us Help You
+          </h5>
+          <a href="page1.html">Help</a>
+        </div>
+        <div class="f3">
+          <h5>Shop with us</h5>
+          <a href="">your account</a>
+        </div>
+        <div class="f4">
+          <h5> Follow us</h5>
+          <a href="https://twitter.com/?lang=ar"><img src="images/tw.png" alt="" height="50px" width="50px" ></a>
+          <br>
+          <a href="https://www.instagram.com/"><img src="images/ins.jpg" alt="" height="50px" width="50px" ></a>
+
+        </div>
+        </div>
+      </footer>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<script src="main.js"></script>
+
+</body>
+</html>

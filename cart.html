@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.main.css">
+  <link rel="stylesheet" href="stylecart.css">
+  <title>Shopping Cart</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body onload="toShow()">
+  <header>
+    <div class="overlay"></div>
+    <nav>
+      <h2><img src="images/g0.png" alt="" height="100px" width="100px"></h2>
+      <form class="form-inline">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+
+      <ul>
+        <li> <a class="sh">
+            <a href="page2.html"> <button type="button" class="btn btn-primary btn-sm">Sign up</button></a>
+            <button type="button" class="btn btn-secondary btn-sm">login</button>
+          </a>
+          <!-- <a href="index.html"> Home </a> -->
+        </li>
+        <li>
+          <!-- <a href="">Contact for Us</a> -->
+        </li>
+      </ul>
+    </nav>
+
+  </header>
+
+  <div class="card mb-3">
+    <img src="images/pa.jpeg" class="card-img-top" alt="..." height="400px">
+  </div>
+  </div>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="main.html" id="navbarDropdownMenuLink" role="button"
+          data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Gifts
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="#">Women</a>
+          <a class="dropdown-item" href="#">Men</a>
+          <a class="dropdown-item" href="#">Kids</a>
+          <a class="nav-link" href="#">collection of Stars</a>
+          <a class="nav-link" href="#">collection of Coffee </a>
+
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="page1.html">contact</a>
+      </li>
+
+    </ul>
+    </div>
+  </nav>
+  <div id="row row-cols-1 row-cols-md-3 g-4">
+    <!-- <div class="col">
+      <h5 class="product-title">PRODUCT</h5>
+      <h5 class="price">PRICE</h5>
+      <h5 class="quantity">QUANTITY</h5>
+      <h5 class="total">TOTAL</h5>
+    </div> -->
+  </div>
+  <div>
+    <table>
+      <tr>
+        <th>
+          <h2> Subtotal</h2>
+        </th>
+        <td>
+          <h2 id="subtotal1"></h2>
+        </td>
+
+      </tr>
+
+      <tr>
+        <th>
+          <h2>vat </h2>
+        </th>
+        <td>
+          <h2 id="vat1"> </h2>
+        </td>
+      </tr>
+
+      <tr>
+        <th>
+          <h2>total Price </h2>
+        </th>
+        <td>
+          <h2 id="totalPrice1"> </h2>
+        </td>
+      </tr>
+
+    </table>
+    <div class="coponstyle">
+      <h2>copon <input id="copon" type="text"> </h2>
+      <br> <button id="aplayCobon1">Aplay</button>
+    </div>
+    <!-- <h2 > Subtotal</h2>
+        <h2 id="subtotal1"></h2>
+        <h2 >vat </h2>
+        <h2 id="vat1"> </h2>
+        
+        <h2 >copon </h2>
+        <input id="copon" type="text"> 
+        <button id="aplayCobon1">Aplay</button>
+        <h2 id="cod1"> </h2>
+        <h2 >total Price </h2>
+        <h2 id="totalPrice1"> </h2> -->
+  </div>
+  <div class="delivar">
+    <form action="/action_page.php">
+      <p font-style="blod">Please select your favorite delivery method :</p>
+        <input type="radio" id="aramex" name="fav_language" value="Aramex">
+        <label for="html">Aramex</label><br>
+        <input type="radio" id="fedex" name="fav_language" value="FedEx">
+        <label for="css">FedEx</label><br>
+  </div>
+
+
+
+
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script src="main.js"></script>
+
+
+</body>
+
+</html>
